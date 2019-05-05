@@ -3,14 +3,14 @@ import {
   combineReducers, 
   applyMiddleware
 } from "redux"
-import rotateReducer from "./reducers/rotateReducer"
+import exReducer from "./reducers/exReducer"
 import { reducer as formReducer } from 'redux-form'
 import thunk from 'redux-thunk'
 import multi from 'redux-multi'
 import promise from 'redux-promise'
 
 const rootReducer = combineReducers({
-  rotateReducer,
+  exReducer,
   form: formReducer,
 })
 
