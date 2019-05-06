@@ -11,20 +11,23 @@ class Home extends Component {
     return (
       <div className={styles.home}>
         <Header/>
-        <div className="content">
-          <div className="sectionBanners">
+        <div className={styles.content}>
+          <div className={styles.sectionBanners}>
           <BannerFixed/>
           <BannerSlider/>
           </div>
-          <div className="sectionMaps">
+          <div className={styles.sectionMaps}>
             <div className="container">
-              <div className="maps">
-                <div className="map"></div>
+              <div className={styles.maps}>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
+                <div className={styles.map}></div>
               </div>
             </div>
           </div>
         </div>
-        <div className="footer"></div>
+        <div className={styles.footer}></div>
       </div>
     )
   }
