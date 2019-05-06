@@ -3,7 +3,7 @@
   "name": "Fundação Telefonica",
   "icons": [
     {
-      "src": "../assets/images/favicon.ico",
+      "src": "http://cdn-fund.fundacaotelefonica.org.br/wp-content/themes/fundacao-telefonica/favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

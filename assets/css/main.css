@@ -1,0 +1,168 @@
+@font-face {
+  font-family: 'TelefonicaHeadlineLightRg';
+  src: url('./fonts/telefonicah-webfont.eot');
+  src: url('./fonts/telefonicah-webfont.eot?#iefix') format('embedded-opentype'),
+     url('./fonts/telefonicah-webfont.woff') format('woff'),
+      /*url('./fonts/telefonicah-webfont.ttf') format('truetype'),*/
+     url('./fonts/TelefonicaH.otf') format('opentype'),
+  url('./fonts/telefonicah-webfont.svg#TelefonicaHeadlineLightRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'TelefonicaRg';
+  src: url('./webfonts/telefonicatext-regular-webfont.eot');
+  src: url('./webfonts/telefonicatext-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./webfonts/telefonicatext-regular-webfont.woff2') format('woff2'),
+       url('./webfonts/telefonicatext-regular-webfont.woff') format('woff'),
+       url('./webfonts/telefonicatext-regular-webfont.ttf') format('truetype'),
+       url('./webfonts/telefonicatext-regular-webfont.svg#telefonicatext-regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TelefonicaTextBold';
+  src: url('./webfonts/telefonicatext-bold-webfont.eot');
+  src: url('./webfonts/telefonicatext-bold-webfont.eot?#iefix') format('embedded-opentype'), 
+   url('./webfonts/telefonicatext-bold-webfont.woff') format('woff'), 
+   url('./webfonts/telefonicatext-bold-webfont.ttf') format('truetype'), 
+   url('./webfonts/telefonicatext-bold-webfont.svg#telefonicatext-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TelefonicaExtraLight';
+  src: url('./webfonts/TelefonicaWeb-ExtraLight.eot');
+  src: url('./webfonts/TelefonicaWeb-ExtraLight.eot?#iefix') format('embedded-opentype'), 
+   url('./webfonts/TelefonicaWeb-ExtraLight.woff') format('woff'), 
+   url('./webfonts/TelefonicaWeb-ExtraLight.ttf') format('truetype'), 
+   url('./webfonts/TelefonicaWeb-ExtraLight.svg#telefonicatext-extralight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TelefonicaWeb-Light';
+  src: url('./webfonts/TelefonicaWeb-Light.eot');
+  src: url('./webfonts/TelefonicaWeb-Light.eot?#iefix') format('embedded-opentype'), 
+   url('./webfonts/TelefonicaWeb-Light.woff') format('woff'), 
+   url('./webfonts/TelefonicaWeb-Light.ttf') format('truetype'), 
+   url('./webfonts/TelefonicaWeb-Light.svg#telefonicatext-light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'TelefonicaHeadlineLightRg'
+}
+
+
+.home {
+  width: 100%;
+} 
+.content {
+  width: 100%;
+  height: 800px;
+  background: rgb(223, 227, 230);
+}
+.sectionBanners {
+  width: 100%;
+  height: 400px;
+  background: rgb(197, 202, 206);
+}
+.sectionMaps {
+  width: 100%;
+  height: 400px;
+  background: rgb(223, 227, 230);
+}
+.maps {
+  width: 100%;
+  display: flex;
+  align-content: center;
+}
+.map {
+  width: 100%;
+  height: 400px;
+  background: rgb(223, 227, 200);
+}
+.footer {
+  width: 100%;
+  background: rgb(155, 159, 163);
+  height: 100px;
+}
+
+/* preheader */
+
+ul.ulsico {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+ul.ulsico a {
+  font-size: 0px;
+  height: 30px;
+  width: 30px;
+  background: #ccc;
+  display: block;
+  margin-left: 5px;
+}
+
+/* header */
+
+.header {
+  background-image: linear-gradient(to right, #005667, #0e94a5, #fff);
+}
+
+.brands {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.brand {
+  display: flex;
+  padding: 15px;
+}
+
+.titles {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 15px;
+}
+
+.titles > img {
+  padding-left: 15px;
+}
+
+.columns {
+  width: 100%;
+}
+
+.title_top a {
+  text-decoration: none;
+  color: #013145
+}
+
+.title_top .h1 {
+  font-size: 34px;
+  margin: 0px;
+}
+
+.claim {
+  color: #990099;
+}
+
+
+/* partiness */
+
+.partiness {
+  background-color: #024560;
+  width: 100%;
+}
