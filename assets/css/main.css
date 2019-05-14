@@ -116,7 +116,14 @@ ul.ulsico a {
 /* header */
 
 .header {
-  background-image: linear-gradient(to right, #005667, #0e94a5, #fff);
+  background: #fff;
+}
+
+.header .icon.icon-logo-color {
+  width: 170px;
+  height: 93px;
+  background: url('../images/sprite.png');
+  display: block;
 }
 
 .brands {
