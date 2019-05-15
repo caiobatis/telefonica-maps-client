@@ -67,11 +67,6 @@ body {
   height: 800px;
   background: rgb(223, 227, 230);
 }
-.sectionBanners {
-  width: 100%;
-  height: 400px;
-  background: rgb(197, 202, 206);
-}
 .sectionMaps {
   width: 100%;
   height: 400px;
@@ -172,4 +167,68 @@ ul.ulsico a {
 .partiness {
   background-color: #024560;
   width: 100%;
+}
+
+/* grid */
+
+.plus {
+  max-width: 1300px;
+}
+
+/* banner */
+
+.banners {
+  display: flex;
+  justify-content: space-between;
+}
+@media(max-width: 768px) {
+
+  .banners {
+    flex-direction: column;
+  }
+}
+
+.bannerFixed {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 100%;
+}
+
+.bannerFixed .item {
+  height: 220px;
+  background: #2085a2;
+}
+
+.bannerFixed .item img {
+  max-width: 100%;
+}
+
+.item.purple {
+  background: #a421a2;
+  padding: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff;
+}
+
+.item.purple .h4 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.item.purple .span {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  display: block;
+}
+
+.bannerSlider img {
+  max-width: 100%;
 }
