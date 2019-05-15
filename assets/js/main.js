@@ -1,3 +1,6 @@
+const app = $('#app')
+app.html(`<div class="loader"><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>`)
+
 const header = 
 `<header class="contain-to-grid header">
   <div class="container">
@@ -49,6 +52,13 @@ const html =
   <div class="footer"></div>
 </div>`
 
-const app = $('#app')
 
-setTimeout(function(){ app.html(html)}, 1000)
+setTimeout(function() {
+  $('.lds-ring').hide(1000)
+}, 500)
+
+setTimeout(function() {
+  app.hide(500)
+  app.html(html)
+  app.show(500)
+}, 1000)
