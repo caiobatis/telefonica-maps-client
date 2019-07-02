@@ -32,14 +32,39 @@ const html =
           </div>
         </div>
         <div class="bannerSlider">
-          <img src="./assets//images/banner-01.png" alt="">
+          <div class="carousel">
+            <ul class="slides">
+              <input type="radio" name="radio-buttons" id="img-1" checked />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./assets/images/banner-01.jpg">
+                  <div class="text">
+                    <b>Acesse os conteúdos extras no fim da página</b> 
+                  </div>
+                </div>
+              </li>
+              <input type="radio" name="radio-buttons" id="img-2" />
+              <li class="slide-container">
+                <div class="slide-image">
+                  <img src="./assets/images/banner-02.jpg">
+                  <div class="text">
+                  Acesse o <b>Guia de Conteúdos Pedagógicos</b>, com uma síntese de todos os conteúdos dos MAPs
+                  </div>
+                </div>
+              </li>
+              <div class="carousel-dots">
+                  <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+                  <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              </div>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <div class="content">
     <div class="sectionMaps">
-      <div class="container">
+      <div class="container plus">
         <div class="maps">
           <div class="map"></div>
           <div class="map"></div>
@@ -61,4 +86,5 @@ setTimeout(function() {
   app.hide(500)
   app.html(html)
   app.show(500)
+
 }, 1000)
