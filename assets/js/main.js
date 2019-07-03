@@ -16,6 +16,147 @@ const header =
   </div>
 </header>`
 
+const maps = [
+  {
+    title: 'MAPs de Matemática',
+    items: [
+      {
+        name: 'O mundo dos números',
+        links: ['', '', '']
+      },
+      {
+        name: 'Contar e calcular',
+        links: ['', '', '']
+      },
+      {
+        name: 'Adições que resultam',
+        links: ['', '', '']
+      },
+      {
+        name: 'Medir, ordenar e operar',
+        links: ['', '', '']
+      },
+      {
+        name: 'Contar, comparar e operar figuras    geométricas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Calendário e cálculos',
+        links: ['', '', '']
+      },
+      {
+        name: 'Somando e subtraindo: ampliando    conceitos',
+        links: ['', '', '']
+      },
+      {
+        name: 'Números para medir e operar',
+        links: ['', '', '']
+      },
+      {
+        name: 'Muitos cálculos',
+        links: ['', '', '']
+      },
+      {
+        name: 'Ordenar, comparar e operar',
+        links: ['', '', '']
+      },
+      {
+        name: 'Noções geométricas: figuras planas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Figuras geométricas tridimensionais',
+        links: ['', '', '']
+      },
+      {
+        name: 'Que horas são?',
+        links: ['', '', '']
+      },
+      {
+        name: 'Comparação de números',
+        links: ['', '', '']
+      },
+      {
+        name: 'Muitas formas de resolver problemas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Para saber mais sobre o sistema    de numeração',
+        links: ['', '', '']
+      }
+    ]
+  },
+  {
+    title: '',
+    items: [
+      {
+        name: 'Amigos de cá',
+        links: ['', '', '']
+      },
+      {
+        name: 'Troca letra e fábulas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Quadrinhas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Onomatopeias e poemas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Sentimentos e emoções',
+        links: ['', '', '']
+      },
+      {
+        name: 'Desafios e histórias',
+        links: ['', '', '']
+      },
+      {
+        name: 'Amigos de lá',
+        links: ['', '', '']
+      },
+      {
+        name: 'Jogos, mitos e lendas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Histórias clássicas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Entre x, ch e bruxas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Brincar de inventar',
+        links: ['', '', '']
+      },
+      {
+        name: 'Inho/ão/s/z e contos',
+        links: ['', '', '']
+      },
+      {
+        name: 'Construindo jogos',
+        links: ['', '', '']
+      },
+      {
+        name: 'M/n/g/j e relato',
+        links: ['', '', '']
+      },
+      {
+        name: 'Relato de passeio',
+        links: ['', '', '']
+      },
+      {
+        name: 'Amigos do h e fadas',
+        links: ['', '', '']
+      },
+    ]
+  }
+]
+
 const html = 
 `<div class="landing">
   ${header}
@@ -65,6 +206,11 @@ const html =
   <div class="content">
     <div class="sectionMaps">
       <div class="container plus">
+        <div class="title center">
+          <h2 class="h2">
+            Selecione abaixo <br/><b>o MAP que deseja acessar</b>
+          </h2>
+        </div>
         <div class="maps">
           <div class="map"></div>
           <div class="map"></div>
