@@ -18,7 +18,7 @@ const header =
 
 const maps = [
   {
-    title: 'MAPs de Matemática',
+    title: 'Matemática',
     items: [
       {
         name: 'O mundo dos números',
@@ -87,7 +87,7 @@ const maps = [
     ]
   },
   {
-    title: '',
+    title: 'Língua Portuguesa',
     items: [
       {
         name: 'Amigos de cá',
@@ -157,6 +157,42 @@ const maps = [
   }
 ]
 
+const renderItemsMap = items => {
+  return items.map((e, i, a) => {
+    return `<div class="item">
+        <a class="titleItem" data-toggle="collapse"
+          href="#coll${e.name.split(' ')[e.name.split(' ').length - 1]}" 
+          role="button" aria-expanded="false"
+          aria-controls="coll${i + a.length}">
+          ${e.name}
+        </a>
+        <div class="collapse" id="coll${e.name.split(' ')[e.name.split(' ').length - 1]}">
+          <div class="links">
+            <a class="link" href="${e.links[0]}">
+              Versão Interativa
+            </a>
+            <a class="link" href="${e.links[1]}">
+              Versão Download
+            </a>
+            <a class="link" href="${e.links[2]}">
+              Versão Completa
+            </a>
+          </div>
+        </div>
+      </div>`
+  })
+}
+
+const renderMaps = (maps).map((e, i)=> (`
+  <div class="map">
+    <div class="title">
+      MAPS de <br/><b>${e.title}</b>
+    </div>
+    <div class="list">
+      ${renderItemsMap(e.items)}
+    </div>
+  </div>`))
+
 const html = 
 `<div class="landing">
   ${header}
@@ -212,15 +248,13 @@ const html =
           </h2>
         </div>
         <div class="maps">
-          <div class="map"></div>
-          <div class="map"></div>
-          <div class="map"></div>
-          <div class="map"></div>
+        ${renderMaps}
         </div>
       </div>
     </div>
   </div>
-  <div class="footer"></div>
+  <div class="footer">
+  </div>
 </div>`
 
 
