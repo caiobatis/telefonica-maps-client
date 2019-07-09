@@ -154,31 +154,185 @@ const maps = [
         links: ['', '', '']
       },
     ]
+  },
+  {
+    title: 'Ciências',
+    items: [
+      {
+        name: 'O corpo humano',
+        links: ['', '', '']
+      },
+      {
+        name: 'Percepção',
+        links: ['', '', '']
+      },
+      {
+        name: 'Os alimentos',
+        links: ['', '', '']
+      },
+      {
+        name: 'Estudo dos animais',
+        links: ['', '', '']
+      },
+      {
+        name: 'Animais vertebrados',
+        links: ['', '', '']
+      },
+      {
+        name: 'Convivendo com os animais',
+        links: ['', '', '']
+      },
+      {
+        name: 'Paisagens',
+        links: ['', '', '']
+      },
+      {
+        name: 'As plantas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Cuidados com as plantas',
+        links: ['', '', '']
+      },
+      {
+        name: 'Os materiais',
+        links: ['', '', '']
+      },
+      {
+        name: 'Água',
+        links: ['', '', '']
+      },
+      {
+        name: 'Atmosfera',
+        links: ['', '', '']
+      },
+      {
+        name: 'O ar',
+        links: ['', '', '']
+      },
+      {
+        name: 'Dia e noite',
+        links: ['', '', '']
+      },
+      {
+        name: 'Viagem ao mundo microscópico',
+        links: ['', '', '']
+      },
+      {
+        name: 'Localização temporal e espacial',
+        links: ['', '', '']
+      },
+    ]
+  },
+  {
+    title: 'Transversais',
+    items: [
+      {
+        name: 'TECNOLOGIA',
+        active: true
+      },
+      {
+        name: 'Tecnologia na sala de aula',
+        links: ['', '', '']
+      },
+      {
+        name: 'A história das máquinas e seus tipos',
+        links: ['', '', '']
+      },
+      {
+        name: 'A comunicação ao longo dos tempos',
+        links: ['', '', '']
+      },
+      {
+        name: 'O computador e seus recursos',
+        links: ['', '', '']
+      },
+
+      {
+        name: 'CIDADANIA',
+        active: true
+      },
+      {
+        name: 'Cidadania e convivência na escola',
+        links: ['', '', '']
+      },
+      {
+        name: 'Profissionais da escola e a responsabilidade no espaço escolar',
+        links: ['', '', '']
+      },
+      {
+        name: 'As relações familiares',
+        links: ['', '', '']
+      },
+      {
+        name: 'Elementos da cidade',
+        links: ['', '', '']
+      },
+
+      {
+        name: 'MANEIRAS DE PENSAR',
+        active: true
+      },
+      {
+        name: 'Eu e eu mesmo no grupo',
+        links: ['', '', '']
+      },
+      {
+        name: 'Eu e eu mesmo no grupo',
+        links: ['', '', '']
+      },
+      {
+        name: 'Comportamentos positivos: direitos e deveres',
+        links: ['', '', '']
+      },
+      {
+        name: 'Trabalho colaborativo',
+        links: ['', '', '']
+      },
+
+      {
+        name: 'VIDA SAUDÁVEL',
+        active: true
+      },
+      {
+        name: 'Hábitos e práticas saudáveis',
+        links: ['', '', '']
+      },
+      {
+        name: 'Cuidados pessoais',
+        links: ['', '', '']
+      },
+      {
+        name: 'Alimentação saudável',
+        links: ['', '', '']
+      },
+      {
+        name: 'Cuidados com a natureza',
+        links: ['', '', '']
+      },
+    ]
   }
 ]
 
 const renderItemsMap = items => {
   return items.map((e, i, a) => {
-    return `<div class="item">
-        <a class="titleItem" data-toggle="collapse"
-          href="#coll${e.name.split(' ')[e.name.split(' ').length - 1]}" 
-          role="button" aria-expanded="false"
-          aria-controls="coll${i + a.length}">
-          ${e.name}
-        </a>
-        <div class="collapse" id="coll${e.name.split(' ')[e.name.split(' ').length - 1]}">
-          <div class="links">
-            <a class="link" href="${e.links[0]}">
-              Versão Interativa
-            </a>
-            <a class="link" href="${e.links[1]}">
-              Versão Download
-            </a>
-            <a class="link" href="${e.links[2]}">
-              Versão Completa
-            </a>
-          </div>
-        </div>
+    return `<div class="item ${e.active ? 'active' : ''}">
+        <a class="titleItem" data-toggle="collapse" href="#coll${i + a.length}${e.name.split(' ')[e.name.split(' ').length - 1]}" role="button" aria-expanded="false" aria-controls="coll${i + a.length}">${e.name}</a>
+        ${ e.links ? `
+            <div class="collapse" id="coll${i + a.length}${e.name.split(' ')[e.name.split(' ').length - 1]}">
+              <div class="links">
+                <a class="link" href="${e.links[0]}">
+                  Versão Interativa
+                </a>
+                <a class="link" href="${e.links[1]}">
+                  Versão Download
+                </a>
+                <a class="link" href="${e.links[2]}">
+                  Versão Completa
+                </a>
+              </div>
+            </div>
+            ` : ''}
       </div>`
   })
 }
