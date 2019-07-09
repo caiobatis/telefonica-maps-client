@@ -407,7 +407,42 @@ const html =
       </div>
     </div>
   </div>
-  <div class="footer">
+  <div class="content extra_content">
+    <div class="sectionMaps">
+      <div class="container plus">
+        <div class="title center">
+          <h2 class="h2">
+          <b>Conteúdos</b> Extras
+          </h2>
+        </div>
+        <ul class="list extra">
+          <li>
+            <a href="">
+              <i class="i i-download"></i>
+              <p>GUIA DE CONTEÚDOS PEDAGÓGICOS dos MAPs</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="i i-download"></i>
+              <p>Base Nacional Comum Curricular</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="i i-download"></i>
+              <p>Currículo de Referência em Tecnologia e Computação do CIEB</p>
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <i class="i i-download"></i>
+              <p>Programaê!: Um Guia para Construção do Pensamento Computacional</p>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </div>`
 
