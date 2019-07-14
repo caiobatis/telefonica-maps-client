@@ -226,6 +226,7 @@ const maps = [
   },
   {
     title: 'Transversais',
+    removeSub: true,
     items: [
       {
         name: 'TECNOLOGIA',
@@ -340,7 +341,7 @@ const renderItemsMap = items => {
 const renderMaps = (maps).map((e, i)=> (`
   <div class="map">
     <div class="title">
-      MAPS de <br/><b>${e.title}</b>
+      MAPS ${e.removeSub ? '' : 'de' } <br/><b>${e.title}</b>
     </div>
     <div class="list">
       ${renderItemsMap(e.items)}
@@ -356,7 +357,7 @@ const html =
         <div class="bannerFixed">
           <div class="item purple">
             <h4 class="h4 white uppercase">Plataforma <br>de MAPS</h4>
-            <span class="span white">Aqui você encontra diversos guias, <br>interativos ou em PDF, para entender <br>o passo a passo de muita coisa legal.</span>
+            <span class="span white">Aqui você encontra todos os Materiais de Apoio ao Professor em versão interativa, versão para baixar ou versão completa!</span>
           </div>
           <div class="item">
             <img src="./assets/images/minibanner-01.jpg" alt="">
@@ -368,19 +369,17 @@ const html =
               <input type="radio" name="radio-buttons" id="img-1" checked />
               <li class="slide-container">
                 <div class="slide-image">
-                  <img src="./assets/images/banner-01.jpg">
-                  <div class="text">
-                    <b>Acesse os conteúdos extras no fim da página</b> 
-                  </div>
+                  <a href="#extraContent">
+                    <img src="./assets/images/banner-01.jpg">
+                  </a>
                 </div>
               </li>
               <input type="radio" name="radio-buttons" id="img-2" />
               <li class="slide-container">
                 <div class="slide-image">
-                  <img src="./assets/images/banner-02.jpg">
-                  <div class="text">
-                  Acesse o <b>Guia de Conteúdos Pedagógicos</b>, com uma síntese de todos os conteúdos dos MAPs
-                  </div>
+                  <a href="#extraContent">
+                    <img src="./assets/images/banner-02.jpg">
+                  </a>
                 </div>
               </li>
               <div class="carousel-dots">
@@ -407,7 +406,7 @@ const html =
       </div>
     </div>
   </div>
-  <div class="content extra_content">
+  <div class="content extra_content" id="extraContent">
     <div class="sectionMaps">
       <div class="container plus">
         <div class="title center">
