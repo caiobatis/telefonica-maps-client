@@ -416,25 +416,25 @@ const html =
         </div>
         <ul class="list extra">
           <li>
-            <a href="">
+            <a href="../../public/Guia_Pedagógico.pdf">
               <i class="i i-download"></i>
               <p>GUIA DE CONTEÚDOS PEDAGÓGICOS dos MAPs</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="../../public/BNCC_Completa_Oficial.pdf">
               <i class="i i-download"></i>
               <p>Base Nacional Comum Curricular</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="../../public/Curriculo_de_Referencia_em_Tecnologia_e_Computacao.pdf">
               <i class="i i-download"></i>
               <p>Currículo de Referência em Tecnologia e Computação do CIEB</p>
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="../../public/Guia_Programaê.pdf">
               <i class="i i-download"></i>
               <p>Programaê!: Um Guia para Construção do Pensamento Computacional</p>
             </a>
