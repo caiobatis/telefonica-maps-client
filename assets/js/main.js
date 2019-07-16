@@ -37,7 +37,7 @@ const maps = [
         links: ['', '', '']
       },
       {
-        name: 'Contar, comparar e operar figuras    geométricas',
+        name: 'Contar, comparar e operar figuras geométricas',
         links: ['', '', '']
       },
       {
@@ -45,7 +45,7 @@ const maps = [
         links: ['', '', '']
       },
       {
-        name: 'Somando e subtraindo: ampliando    conceitos',
+        name: 'Somando e subtraindo: ampliando conceitos',
         links: ['', '', '']
       },
       {
@@ -81,7 +81,7 @@ const maps = [
         links: ['', '', '']
       },
       {
-        name: 'Para saber mais sobre o sistema    de numeração',
+        name: 'Para saber mais sobre o sistema de numeração',
         links: ['', '', '']
       }
     ]
@@ -357,7 +357,7 @@ const html =
         <div class="bannerFixed">
           <div class="item purple">
             <h4 class="h4 white uppercase">Plataforma <br>de MAPS</h4>
-            <span class="span white">Aqui você encontra todos os Materiais de Apoio ao Professor em versão interativa, versão para baixar ou versão completa!</span>
+            <span class="span white">Aqui você encontra todos os Manuais de Apoio ao Professor em versão interativa, versão para baixar ou versão completa!</span>
           </div>
           <div class="item">
             <img src="./assets/images/minibanner-01.jpg" alt="">
@@ -416,25 +416,25 @@ const html =
         </div>
         <ul class="list extra">
           <li>
-            <a href="../../public/Guia_Pedagógico.pdf">
+            <a href="./../../public/Guia_Pedagógico.pdf">
               <i class="i i-download"></i>
-              <p>GUIA DE CONTEÚDOS PEDAGÓGICOS dos MAPs</p>
+              <p>Guia dos Conteúdos Pedagógicos dos MAPs</p>
             </a>
           </li>
           <li>
-            <a href="../../public/BNCC_Completa_Oficial.pdf">
+            <a href="./../../public/BNCC_Completa_Oficial.pdf">
               <i class="i i-download"></i>
               <p>Base Nacional Comum Curricular</p>
             </a>
           </li>
           <li>
-            <a href="../../public/Curriculo_de_Referencia_em_Tecnologia_e_Computacao.pdf">
+            <a href="./../../public/Curriculo_de_Referencia_em_Tecnologia_e_Computacao.pdf">
               <i class="i i-download"></i>
               <p>Currículo de Referência em Tecnologia e Computação do CIEB</p>
             </a>
           </li>
           <li>
-            <a href="../../public/Guia_Programaê.pdf">
+            <a href="./../../public/Guia_Programaê.pdf">
               <i class="i i-download"></i>
               <p>Programaê!: Um Guia para Construção do Pensamento Computacional</p>
             </a>

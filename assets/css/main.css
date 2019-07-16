@@ -547,6 +547,7 @@ a.titleItem {
   font-family: Bold;
   color: #9b019b;
   padding: 10px 0;
+  cursor: auto;
 }
 
 .item.active:before {
