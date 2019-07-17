@@ -33,7 +33,7 @@ html, body {
   position: relative;
 }
 
-.pc .bottom {
+.pc > .bottom {
   width: 100%;
   height: 70px;
   margin-top: -60px;
@@ -114,14 +114,18 @@ section.step.show {
   opacity: 1;
 }
 
+.tooltip.show {
+  opacity: 1;
+}
+
 .tooltip .content span {
   background: rgb(252, 248, 185);
   border-radius: 5px;
   align-items: center;
   justify-content: center;
   height: auto;
-  width: 200px;
-  padding: 20px;
+  width: 250px;
+  padding: 30px;
   display: flex;
 }
 
@@ -130,13 +134,13 @@ section.step.show {
   opacity: 0;
   display: none;
   height: auto;
-  width: 200px;
+  width: 250px;
 }
 
 .tooltip .icon {
   width: 20px;
   height: 20px;
-  background: #8a8999;
+  background: rgba(137, 153, 144, 0.3);
   display: block;
   border-radius: 20px;
   cursor: pointer;
@@ -166,7 +170,7 @@ section.step.show {
   position: absolute;
   bottom: 0px;
   transform: rotate(45deg);
-  left: 15px;
+  left: 100px;
   z-index: -1;
   margin-bottom: 10px;
 }
@@ -174,14 +178,31 @@ section.step.show {
 .tooltip .content {
   position: absolute;
   bottom: 20px;
-  left: -15px;
+  left: -100px;
   z-index: 2;
-  padding-bottom: 15px;
+  padding: 15px;
 }
 .tooltip .content span {
   line-height: 13px;
   font-size: 13px;
 }
+
+.tooltip.left .content {
+  left: -200px;
+}
+
+.tooltip.left .content span:after {
+  left: 200px;
+}
+
+.tooltip.bottom .content {
+  top: 17px;
+}
+
+.tooltip.bottom .content span:after {
+  top: 10px;
+}
+
 
 .page {
   display: flex;
@@ -189,14 +210,21 @@ section.step.show {
   height: 100%;
   align-items: center;
   justify-content: center;
+  margin-top: -25px;
+  position: relative;
+  z-index: 0;
 }
 
 .page img {
   object-fit: contain;
+  width: 100%;
+  height: 100%;
 }
 
 .step .header {
   height: 82px;
+  position: relative;
+  z-index: 1;
 }
 
 .steps {

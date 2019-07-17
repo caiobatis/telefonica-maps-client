@@ -7,72 +7,74 @@ const map = [
     id: 1,
     pages: [
       {
-        title: `<img src="./images/CIENCIAS1/titulo1.png">`,
-        content: `<img src="./images/CIENCIAS1/pagina1.png">`,
+        title: `<img src="./images/CIENCIAS1/ciencias1-titulo1.png">`,
+        content: `<img src="./images/CIENCIAS1/ciencias1-pag1.png">`,
         tooltips: [
           {
-            positionX: 150,
-            positionY: 260,
+            right: 122,
+            top: 400,
             value: 'The :not selector will not work with other pseudo selectors that are attached to different elements that are also doing pseudo selection.'
           },
           {
-            positionX: 260,
-            positionY: 460,
+            left: 515,
+            bottom: 198,
             value: 'teste tooltop'
           },
         ],
         links: [
           {
-            positionX: 260,
-            positionY: 150,
+            right: 260,
+            top: 150,
             width: 150,
             value: 'teste tooltop'
           }
         ]
       },
       {
-        title: `<img src="./images/CIENCIAS1/titulo2.png">`,
-        content: `<img src="./images/CIENCIAS1/pagina2.png">`,
+        title: `<img src="./images/CIENCIAS1/ciencias1-titulo2.png">`,
+        content: `<img src="./images/CIENCIAS1/ciencias1-pag1.png">`,
         tooltips: [
           {
-            positionX: 50,
-            positionY: 150,
-            value: 'teste tooltop da pagina 2'
+            right: 50,
+            top: 150,
+            value: 'teste tooltop da pagina 2',
+            align: 'left'
           },
           {
-            positionX: 260,
-            positionY: 150,
-            value: 'teste tooltop'
+            right: 260,
+            top: 150,
+            value: 'teste tooltop',
+            align: 'bottom'
           },
         ],
         links: [
           {
-            positionX: 260,
-            positionY: 150,
+            right: 260,
+            top: 150,
             width: 150,
             value: 'teste tooltop'
           }
         ]
       },
       {
-        title: `<img src="./images/CIENCIAS1/titulo2.png">`,
-        content: `<img src="./images/CIENCIAS1/pagina3.png">`,
+        title: `<img src="./images/CIENCIAS1/ciencias1-titulo2.png">`,
+        content: `<img src="./images/CIENCIAS1/ciencias1-pag1.png">`,
         tooltips: [
           {
-            positionX: 510,
-            positionY: 650,
+            right: 510,
+            top: 650,
             value: 'teste tooltop'
           },
           {
-            positionX: 260,
-            positionY: 150,
+            right: 260,
+            top: 150,
             value: 'teste tooltop da pagina 3'
           },
         ],
         links: [
           {
-            positionX: 260,
-            positionY: 150,
+            right: 260,
+            top: 150,
             width: 150,
             value: 'teste tooltop'
           }
@@ -85,7 +87,7 @@ const map = [
 const createTooltips = tooltips => {
   return tooltips.map(e=> {
     return `
-    <div class="tooltip" style="left: ${e.positionX}px; top: ${e.positionY}px;">
+    <div class="tooltip ${e.align}" style="right: ${e.right}px; top: ${e.top}px; left: ${e.left}px; bottom: ${e.bottom}px;">
       <div class="text">
         <div class="content">
           <span>${e.value}</span>
