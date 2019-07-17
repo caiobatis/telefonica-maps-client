@@ -23,10 +23,11 @@ const map = [
         ],
         links: [
           {
-            right: 260,
-            top: 150,
-            width: 150,
-            value: 'teste tooltop'
+            left: 210,
+            bottom: 100,
+            width: 300,
+            height: 50,
+            value: 'https://www.google.com.br/'
           }
         ]
       },
@@ -49,9 +50,10 @@ const map = [
         ],
         links: [
           {
-            right: 260,
+            right: 660,
             top: 150,
             width: 150,
+            height: 50,
             value: 'teste tooltop'
           }
         ]
@@ -73,9 +75,10 @@ const map = [
         ],
         links: [
           {
-            right: 260,
-            top: 150,
+            right: 560,
+            top: 350,
             width: 150,
+            height: 50,
             value: 'teste tooltop'
           }
         ]
@@ -94,6 +97,16 @@ const createTooltips = tooltips => {
         </div>
       </div>
       <div class="icon"></div>
+    </div>    
+    `
+  })
+}
+
+const createLinks = tooltips => {
+  return tooltips.map(e=> {
+    return `
+    <div class="links" style="right: ${e.right}px; top: ${e.top}px; left: ${e.left}px; bottom: ${e.bottom}px; width: ${e.width}px; height: ${e.height}px;">
+      <a href="${e.value}" target="_blank"></a>
     </div>    
     `
   })
@@ -126,6 +139,7 @@ const createStep = () => {
         <div class="header">${e.title}</div>
         <div class="page">${e.content}</div>
         ${createTooltips(e.tooltips)}
+        ${createLinks(e.links)}
       </section>
     `
   })
