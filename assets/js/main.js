@@ -160,23 +160,23 @@ const maps = [
     items: [
       {
         name: 'O corpo humano',
-        links: ['', '', '']
+        links: ['./ciencias/index.html?id=1', '', '']
       },
       {
         name: 'Percepção',
-        links: ['', '', '']
+        links: ['./ciencias/index.html?id=2', '', '']
       },
       {
         name: 'Os alimentos',
-        links: ['', '', '']
+        links: ['./ciencias/index.html?id=3', '', '']
       },
       {
         name: 'Estudo dos animais',
-        links: ['', '', '']
+        links: ['./ciencias/index.html?id=4', '', '']
       },
       {
         name: 'Animais vertebrados',
-        links: ['', '', '']
+        links: ['./ciencias/index.html?id=5', '', '']
       },
       {
         name: 'Convivendo com os animais',
