@@ -442,35 +442,30 @@ const map = [
         content: `pag1.png`,
         tooltips: [
           {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
+            left: 469,
+            bottom: 200,
+            value: 'O site da Universidade Estadual do Cariri disponibiliza o documento da Declaração Universal dos Direitos dos Animais com seus 14 artigos!'
           },
           {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
+            left: 469,
+            bottom: 142,
+            value: 'Neste artigo de consulta, discute-se a temática extinção e traz dados atuais sobre o cenário da extinção de diversos animais no mundo.'
           },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
         ],
         links: [
           {
-            left: 210,
-            bottom: 160,
-            width: 300,
+            left: 200,
+            bottom: 169,
+            width: 263,
             height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
+            value: 'http://www.urca.br/ceua/arquivos/Os%20direitos%20dos%20animais%20UNESCO.pdf'
           },
           {
-            left: 210,
-            bottom: 100,
-            width: 300,
+            left: 200,
+            bottom: 109,
+            width: 263,
             height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
+            value: 'http://cienciahoje.org.br/na-iminencia-de-uma-nova-extincao'
           },
         ]
       },
@@ -479,31 +474,36 @@ const map = [
         content: `pag2.png`,
         tooltips: [
           {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
+            top: 365,
+            left: 521,
+            value: 'O tema de animais em risco de extinção pode e deve ser aprofundado a partir desta unidade. ',
           },
           {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
+            top: 463,
+            left: 521,
+            value: 'Explique aos alunos o que é um safari – uma expedição para exploração de animais. ',
           },
           {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
+            top: 614,
+            left: 521,
+            value: 'Some as informações desse recurso com outros materiais disponíveis na escola. ',
           },
           {
-            right: 56,
-            top: 319,
+            top: 749,
+            left: 521,
+            value: 'Para cada animal, incentive-os a justificar sua escolha. ',
+          },
+          {
+            right: 111,
+            top: 456,
             align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
+            value: 'Converse sobre a importância da preservação do meio ambiente e dos habitats dos animais, abordando principalmente as atitudes que podem ser tomadas para preservar o meio ambiente.',
           },
           {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
+            right: 111,
+            top: 676,
+            align: 'left',
+            value: 'Após a atividade, construa um cartaz com essas propostas para que sejam vistas por todos. Os alunos sempre poderão acrescentar novas informações ao cartaz.',
           },
         ],
         links: []
@@ -513,623 +513,26 @@ const map = [
         content: `pag3.png`,
         tooltips: [
           {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
+            top: 362,
+            left: 550,
+            value: 'Cole os desenhos no mural da sala para que sejam vistos.'
           },
           {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
+            top: 737,
+            left: 550,
+            value: 'Para essa atividade, você pode se amparar na Declaração Universal dos Direitos dos Animais cuja referência está no “Saiba mais”.'
           },
           {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
+            right: 186,
+            top: 698,
             value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
           },
         ],
         links: []
       },
     ]
   },
-  {
-    id: 6,
-    pages: [
-      {
-        title: `titulo1.png`,
-        content: `pag1.png`,
-        tooltips: [
-          {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
-          },
-          {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
-          },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
-        ],
-        links: [
-          {
-            left: 210,
-            bottom: 160,
-            width: 300,
-            height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
-          },
-          {
-            left: 210,
-            bottom: 100,
-            width: 300,
-            height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
-          },
-        ]
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag2.png`,
-        tooltips: [
-          {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
-          },
-          {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
-          },
-          {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
-          },
-          {
-            right: 56,
-            top: 319,
-            align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
-          },
-          {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
-          },
-        ],
-        links: []
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag3.png`,
-        tooltips: [
-          {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
-          },
-          {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
-          },
-          {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
-            value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
-          },
-        ],
-        links: []
-      },
-    ]
-  },
-  {
-    id: 7,
-    pages: [
-      {
-        title: `titulo1.png`,
-        content: `pag1.png`,
-        tooltips: [
-          {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
-          },
-          {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
-          },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
-        ],
-        links: [
-          {
-            left: 210,
-            bottom: 160,
-            width: 300,
-            height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
-          },
-          {
-            left: 210,
-            bottom: 100,
-            width: 300,
-            height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
-          },
-        ]
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag2.png`,
-        tooltips: [
-          {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
-          },
-          {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
-          },
-          {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
-          },
-          {
-            right: 56,
-            top: 319,
-            align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
-          },
-          {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
-          },
-        ],
-        links: []
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag3.png`,
-        tooltips: [
-          {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
-          },
-          {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
-          },
-          {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
-            value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
-          },
-        ],
-        links: []
-      },
-    ]
-  },
-  {
-    id: 8,
-    pages: [
-      {
-        title: `titulo1.png`,
-        content: `pag1.png`,
-        tooltips: [
-          {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
-          },
-          {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
-          },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
-        ],
-        links: [
-          {
-            left: 210,
-            bottom: 160,
-            width: 300,
-            height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
-          },
-          {
-            left: 210,
-            bottom: 100,
-            width: 300,
-            height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
-          },
-        ]
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag2.png`,
-        tooltips: [
-          {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
-          },
-          {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
-          },
-          {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
-          },
-          {
-            right: 56,
-            top: 319,
-            align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
-          },
-          {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
-          },
-        ],
-        links: []
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag3.png`,
-        tooltips: [
-          {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
-          },
-          {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
-          },
-          {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
-            value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
-          },
-        ],
-        links: []
-      },
-    ]
-  },
-  {
-    id: 9,
-    pages: [
-      {
-        title: `titulo1.png`,
-        content: `pag1.png`,
-        tooltips: [
-          {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
-          },
-          {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
-          },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
-        ],
-        links: [
-          {
-            left: 210,
-            bottom: 160,
-            width: 300,
-            height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
-          },
-          {
-            left: 210,
-            bottom: 100,
-            width: 300,
-            height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
-          },
-        ]
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag2.png`,
-        tooltips: [
-          {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
-          },
-          {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
-          },
-          {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
-          },
-          {
-            right: 56,
-            top: 319,
-            align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
-          },
-          {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
-          },
-        ],
-        links: []
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag3.png`,
-        tooltips: [
-          {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
-          },
-          {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
-          },
-          {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
-            value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
-          },
-        ],
-        links: []
-      },
-    ]
-  },
-  {
-    id: 10,
-    pages: [
-      {
-        title: `titulo1.png`,
-        content: `pag1.png`,
-        tooltips: [
-          {
-            right: 122,
-            top: 400,
-            value: 'As atividades sobre lateralidade devem ser realizadas após as atividades sobre as diferentes partes do corpo, pois as principais referências usadas são baseadas nessas partes.'
-          },
-          {
-            left: 516,
-            bottom: 199,
-            value: 'Neste banco de objetos educacionais do MEC, você encontrará recursos variados para desenvolver atividades com alunos de todas as séries do ensino fundamental e outras etapas!'
-          },
-          {
-            left: 517,
-            bottom: 139,
-            value: 'Com esse aplicativo, os alunos poderão explorar o corpo humano em 3D. Disponível gratuitamente em língua portuguesa!'
-          }
-        ],
-        links: [
-          {
-            left: 210,
-            bottom: 160,
-            width: 300,
-            height: 50,
-            value: 'http://objetoseducacionais2.mec.gov.br/'
-          },
-          {
-            left: 210,
-            bottom: 100,
-            width: 300,
-            height: 50,
-            value: 'https://play.google.com/store/apps/details?id=com.catfishanimationstudio.SkeletalSystemPreview&hl=pt_BR'
-          },
-        ]
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag2.png`,
-        tooltips: [
-          {
-            top: 470,
-            left: 580,
-            value: 'Complemente a atividade utilizando músicas infantis que explorem as diferentes partes do corpo.',
-          },
-          {
-            left: 580,
-            bottom: 92,
-            value: 'Nesse momento, eles podem escrever partes que não foram escritas nas fichas, como sobrancelha, coxa, bochecha, cotovelo, ombro e tudo o que considerarem “partes do corpo”, o que seria importante para ampliar tanto a visão de partes do corpo quanto da escrita. Além disso, podem desenhar roupas e acessórios.',
-          },
-          {
-            left: 580,
-            bottom: 47,
-            value: 'Para expandir, os alunos que desejarem poderão explicar seu desenho para a turma. Depois disso, todos os desenhos podem ser expostos por alguns dias na sala de aula ou na escola. ',
-          },
-          {
-            right: 56,
-            top: 319,
-            align: 'left',
-            value: 'Para complementar a atividade, pode-se solicitar que procurem em revistas e jornais imagens de pessoas de diferentes raças, tipos físicos ou características. Depois de recortá-las, proponha uma colagem em painel acompanhada de um debate sobre as semelhanças dos seres humanos ressaltando, ao mesmo tempo, sua diversidade.',
-          },
-          {
-            right: 56,
-            top: 613,
-            value: 'Professor, é importante destacar que nessa atividade não há vencedor, pois, todos os cartões são desvendados.',
-            align: 'left'
-          },
-        ],
-        links: []
-      },
-      {
-        title: `titulo2.png`,
-        content: `pag3.png`,
-        tooltips: [
-          {
-            top: 556,
-            left: 367,
-            value: 'O propósito aqui é construir com o grupo o entendimento de que as articulações são as uniões móveis entre os ossos.'
-          },
-          {
-            right: 436,
-            top: 258,
-            value: 'Antes das atividades, brinque com seus alunos de fazer caretas. '
-          },
-          {
-            right: 43,
-            top: 374,
-            align: 'left',
-            value: 'Materiais, como pneus, traves de equilíbrio, obstáculos, escada e planos inclinados na forma de percurso ou de arranjos podem ser introduzidos.'
-          },
-          {
-            right: 43,
-            align: 'left',
-            top: 464,
-            value: 'Reserve para esta aula um espaço amplo, arejado e que tenha pequenos desníveis no solo – pequenas escadas, bancos, rampas etc. – para realizar uma atividade de saltos e equilíbrio.'
-          },
-          {
-            left: 526,
-            bottom: 115,
-            value: 'Em todas as unidades há três perguntas de avaliação que servem para dar retomar os conteúdos aprendidos pelo estudante. Cada uma delas vale 33% do total de 100%.'
-          },
-          {
-            right: 43,
-            bottom: 96,
-            align: 'left',
-            value: 'Você pode fazer uma sistematização na lousa, com a ajuda dos alunos, criando um pequeno resumo do que foi aprendido. Para isso, pode usar a lista de conteúdos ou os objetivos de aprendizagem.'
-          },
-        ],
-        links: []
-      },
-    ]
-  },
+
 ]
 
 const createTooltips = tooltips => {
