@@ -159,7 +159,7 @@ const maps = [
     title: 'Ciências',
     items: [
       {
-        name: 'O corpo humano',
+        name: 'Uni 1: O corpo humano',
         links: ['./ciencias/index.html?id=1', '', '']
       },
       {
@@ -233,20 +233,20 @@ const maps = [
         active: true
       },
       {
-        name: 'Tecnologia na sala de aula',
-        links: ['', '', '']
+        name: 'Uni 1: Tecnologia na sala de aula',
+        links: ['./transversal/tecnologia/1/genially.html', './transversal/tecnologia/1/mapa.pdf', './transversal/tecnologia/1/word.docx']
       },
       {
-        name: 'A história das máquinas e seus tipos',
-        links: ['', '', '']
+        name: 'Uni 2: A história das máquinas e seus tipos',
+        links: ['./transversal/tecnologia/2/genially.html', './transversal/tecnologia/2/mapa.pdf', './transversal/tecnologia/2/word.docx']
       },
       {
-        name: 'A comunicação ao longo dos tempos',
-        links: ['', '', '']
+        name: 'Uni 3: A comunicação ao longo dos tempos',
+        links: ['./transversal/tecnologia/3/genially.html', './transversal/tecnologia/3/mapa.pdf', './transversal/tecnologia/3/word.docx']
       },
       {
-        name: 'O computador e seus recursos',
-        links: ['', '', '']
+        name: 'Uni 4: O computador e seus recursos',
+        links: ['./transversal/tecnologia/4/genially.html', './transversal/tecnologia/4/mapa.pdf', './transversal/tecnologia/4/word.docx']
       },
 
       {
@@ -254,20 +254,20 @@ const maps = [
         active: true
       },
       {
-        name: 'Cidadania e convivência na escola',
-        links: ['', '', '']
+        name: 'Uni 1: Cidadania e convivência na escola',
+        links: ['./transversal/cidadania/1/genially.html', './transversal/cidadania/1/mapa.pdf', './transversal/cidadania/1/word.docx']
       },
       {
-        name: 'Profissionais da escola e a responsabilidade no espaço escolar',
-        links: ['', '', '']
+        name: 'Uni 2: Profissionais da escola e a responsabilidade no espaço escolar',
+        links: ['./transversal/cidadania/2/genially.html', './transversal/cidadania/2/mapa.pdf', './transversal/cidadania/2/word.docx']
       },
       {
-        name: 'As relações familiares',
-        links: ['', '', '']
+        name: 'Uni 3: As relações familiares',
+        links: ['./transversal/cidadania/3/genially.html', './transversal/cidadania/3/mapa.pdf', './transversal/cidadania/3/word.docx']
       },
       {
-        name: 'Elementos da cidade',
-        links: ['', '', '']
+        name: 'Uni 4: Elementos da cidade',
+        links: ['./transversal/cidadania/4/genially.html', './transversal/cidadania/4/mapa.pdf', './transversal/cidadania/4/word.docx']
       },
 
       {
@@ -275,20 +275,20 @@ const maps = [
         active: true
       },
       {
-        name: 'Eu e eu mesmo no grupo',
-        links: ['', '', '']
+        name: 'Uni 1: Eu e eu mesmo no grupo',
+        links: ['./transversal/maneiras-de-pensar/1/genially.html', './transversal/maneiras-de-pensar/1/mapa.pdf', './transversal/maneiras-de-pensar/1/word.docx']
       },
       {
-        name: 'Eu e eu mesmo no grupo',
-        links: ['', '', '']
+        name: 'Uni 2: Eu e eu mesmo no grupo',
+        links: ['./transversal/maneiras-de-pensar/2/genially.html', './transversal/maneiras-de-pensar/2/mapa.pdf', './transversal/maneiras-de-pensar/2/word.docx']
       },
       {
-        name: 'Comportamentos positivos: direitos e deveres',
-        links: ['', '', '']
+        name: 'Uni 3: Comportamentos positivos: direitos e deveres',
+        links: ['./transversal/maneiras-de-pensar/3/genially.html', './transversal/maneiras-de-pensar/3/mapa.pdf', './transversal/maneiras-de-pensar/3/word.docx']
       },
       {
-        name: 'Trabalho colaborativo',
-        links: ['', '', '']
+        name: 'Uni 4: Trabalho colaborativo',
+        links: ['./transversal/maneiras-de-pensar/4/genially.html', './transversal/maneiras-de-pensar/4/mapa.pdf', './transversal/maneiras-de-pensar/4/word.docx']
       },
 
       {
@@ -296,20 +296,20 @@ const maps = [
         active: true
       },
       {
-        name: 'Hábitos e práticas saudáveis',
-        links: ['', '', '']
+        name: 'Uni 1: Hábitos e práticas saudáveis',
+        links: ['./transversal/vida-saudavel/1/genially.html', './transversal/vida-saudavel/1/mapa.pdf', './transversal/vida-saudavel/1/word.docx']
       },
       {
-        name: 'Cuidados pessoais',
-        links: ['', '', '']
+        name: 'Uni 2: Cuidados pessoais',
+        links: ['./transversal/vida-saudavel/2/genially.html', './transversal/vida-saudavel/2/mapa.pdf', './transversal/vida-saudavel/2/word.docx']
       },
       {
-        name: 'Alimentação saudável',
-        links: ['', '', '']
+        name: 'Uni 3: Alimentação saudável',
+        links: ['./transversal/vida-saudavel/3/genially.html', './transversal/vida-saudavel/3/mapa.pdf', './transversal/vida-saudavel/3/word.docx']
       },
       {
-        name: 'Cuidados com a natureza',
-        links: ['', '', '']
+        name: 'Uni 4: Cuidados com a natureza',
+        links: ['./transversal/vida-saudavel/4/genially.html', './transversal/vida-saudavel/4/mapa.pdf', './transversal/vida-saudavel/4/word.docx']
       },
     ]
   }
@@ -317,15 +317,17 @@ const maps = [
 
 const renderItemsMap = items => {
   return items.map((e, i, a) => {
+    let id = Math.random().toString(36).substring(7);
+
     return `<div class="item ${e.active ? 'active' : ''}">
-        <a class="titleItem" data-toggle="collapse" href="#coll${i + a.length}${e.name.split(' ')[e.name.split(' ').length - 1]}" role="button" aria-expanded="false" aria-controls="coll${i + a.length}">${e.name}</a>
+        <a class="titleItem" data-toggle="collapse" href="#coll${id}" role="button" aria-expanded="false" aria-controls="coll${id}">${e.name}</a>
         ${ e.links ? `
-            <div class="collapse" id="coll${i + a.length}${e.name.split(' ')[e.name.split(' ').length - 1]}">
+            <div class="collapse" id="coll${id}">
               <div class="links">
                 <a class="link" href="${e.links[0]}">
                   Versão Interativa
                 </a>
-                <a class="link" href="${e.links[1]}">
+                <a class="link" href="${e.links[1]}" download>
                   Versão Download
                 </a>
                 <a class="link" href="${e.links[2]}">
@@ -416,25 +418,25 @@ const html =
         </div>
         <ul class="list extra">
           <li>
-            <a href="./../../public/Guia_Pedagógico.pdf">
+            <a href="./public/Guia_Pedagógico.pdf" download>
               <i class="i i-download"></i>
               <p>Guia dos Conteúdos Pedagógicos dos MAPs</p>
             </a>
           </li>
           <li>
-            <a href="./../../public/BNCC_Completa_Oficial.pdf">
+            <a href="./public/BNCC_Completa_Oficial.pdf" download>
               <i class="i i-download"></i>
               <p>Base Nacional Comum Curricular</p>
             </a>
           </li>
           <li>
-            <a href="./../../public/Curriculo_de_Referencia_em_Tecnologia_e_Computacao.pdf">
+            <a href="./public/Curriculo_de_Referencia_em_Tecnologia_e_Computacao.pdf" download>
               <i class="i i-download"></i>
               <p>Currículo de Referência em Tecnologia e Computação do CIEB</p>
             </a>
           </li>
           <li>
-            <a href="./../../public/Guia_Programaê.pdf">
+            <a href="./public/Guia_Programaê.pdf" download>
               <i class="i i-download"></i>
               <p>Programaê!: Um Guia para Construção do Pensamento Computacional</p>
             </a>
